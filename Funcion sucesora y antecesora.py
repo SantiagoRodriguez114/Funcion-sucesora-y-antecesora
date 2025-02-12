@@ -11,6 +11,7 @@ def A(n):
 def suma(a,b):
     if a < 0 or b < 0:
         print("Error")
+        return None
     
     res = a
     
@@ -23,6 +24,7 @@ def suma(a,b):
 def resta(a,b):
     if a < 0 or b < 0:
         print("Error")
+        return None
         
     res = a
     
@@ -36,6 +38,7 @@ def resta(a,b):
 def multiplicacion(a,b):
     if a < 0 or b < 0:
         print("Error")
+        return None
     if a == 0 or b == 0:
         return 0
     
@@ -53,6 +56,7 @@ def division(a, b):
     
     if a < 0 or b < 0:
         print("Error")
+        return None
 
     if b == 0:
         print("Error: No se puede dividir por cero.")
