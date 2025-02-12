@@ -10,8 +10,7 @@ def A(n):
 
 def suma(a,b):
     if a < 0 or b < 0:
-        print("Error")
-        return None
+        return "Error"
     
     res = a
     
@@ -23,8 +22,7 @@ def suma(a,b):
 
 def resta(a,b):
     if a < 0 or b < 0:
-        print("Error")
-        return None
+        return "Error"
         
     res = a
     
@@ -37,8 +35,7 @@ def resta(a,b):
 
 def multiplicacion(a,b):
     if a < 0 or b < 0:
-        print("Error")
-        return None
+        return "Error"
     if a == 0 or b == 0:
         return 0
     
@@ -55,12 +52,10 @@ def multiplicacion(a,b):
 def division(a, b):
     
     if a < 0 or b < 0:
-        print("Error")
-        return None
+        return "Error"
 
     if b == 0:
-        print("Error: No se puede dividir por cero.")
-        return None
+        return "Error: No se puede dividir por cero."
 
     cociente = 0
     dividendo = a 
